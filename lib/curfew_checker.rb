@@ -43,8 +43,6 @@ def platinum_curfew_checker(current_time, curfew_time)
   if current_time > 11 && curfew_time = 11
     return "You're in trouble! Better get back to Hogwarts quick!"
   else 
-  end
-  if time == 9
     return "You have 2 hour(s) left to keep having fun!"
   end
 end
